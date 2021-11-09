@@ -1,5 +1,6 @@
 <h1 align="center">
     Word Typing
 </h1>
-Simple speed words typing game built using Vanilla JavaScript.
+<p align="center"><i>Simple speed words typing game with Vanilla JavaScript.</i></p>
+
 
