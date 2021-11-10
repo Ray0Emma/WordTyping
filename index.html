@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,6 +7,7 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <title>Typing Game</title>
 </head>
+
 <body class="bg-dark text-white">
     <header class="bg-warning text-center py-3 mb-5">
         <h2> Let's Play Now! </h2>
@@ -13,12 +15,13 @@
     <section class="text-center ">
         <div class="container">
             <h5> Type the given word within <span id="seconds" class="text-info">5</span> seconds </h5>
-            <h1 id="current-word" class="display-2 mb-4"> hello </h1>
+            <h1 id="current-word" class="display-2 mb-4"><span class="text-warning">3..2..1 go!!!</span></h1>
             <div class="row">
                 <div class="col-md-6 mx-auto">
-                    <input type="text" class="form-control form-control-lg" placeholder="Start typing.." id="word-input" autofocus>
+                    <input type="text" class="form-control form-control-lg" placeholder="Start typing.." id="word-input"
+                        autofocus>
                     <p class="fs-5 mt-3" id="message"></p>
-                    <button class="d-none" id="tryAgain" onclick="refrech()">Try again</button>
+                    <button class="d-none" id="tryAgain">Try again</button>
 
                     <!-- Time and Score -->
                     <div class="row mt-5">
@@ -40,8 +43,8 @@
                             <div class=" card card-body bg-warning">
                                 <h6> Instructions </h6>
                                 <div class="card-text">
-                                    Type each word in the given amount of seconds 
-                                    to score. To play again, just click the Try again 
+                                    Type each word in the given amount of seconds
+                                    to score. To play again, just click the Try again
                                     button. Your score will reset.
                                 </div>
                             </div>
@@ -51,7 +54,10 @@
             </div>
         </div>
     </section>
-    <script src="./bootstrap/js/bootstrap.bundle.min.js" ></script>
-    <script src="./Js/main.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/main.js"></script>
 </body>
+
 </html>
