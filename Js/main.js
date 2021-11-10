@@ -30,7 +30,7 @@ function init() {
   $(function () {
     $.ajax({
       dataType: "json",
-      url: "https://www.randomlists.com/data/words.json",
+      url: "https://myjson.dit.upm.es/api/bins/fmvx",
       cache: false,
       success: function (data, status) {
         showWord(data.data);
@@ -58,7 +58,7 @@ function startMatch() {
     $(function () {
       $.ajax({
         dataType: "json",
-        url: "https://www.randomlists.com/data/words.json",
+        url: "https://myjson.dit.upm.es/api/bins/fmvx",
         cache: false,
         success: function (data, status) {
           showWord(data.data);
